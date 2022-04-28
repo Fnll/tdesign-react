@@ -8,7 +8,7 @@ import useConfig from '../_util/useConfig';
 import { RangeInputPopup } from '../range-input';
 import TimePickerPanel from './panel/TimePickerPanel';
 
-import { useTimePickerTextConfig } from './const';
+import { useTimePickerTextConfig } from './hooks/useTimePickerTextConfig';
 
 import { TdTimeRangePickerProps } from './type';
 import { StyledProps } from '../common';

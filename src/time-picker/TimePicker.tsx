@@ -13,7 +13,7 @@ import SelectInput from '../select-input';
 import TimeRangePicker from './TimeRangePicker';
 import TimePickerPanel from './panel/TimePickerPanel';
 
-import { useTimePickerTextConfig } from './const';
+import { useTimePickerTextConfig } from './hooks/useTimePickerTextConfig';
 
 import { StyledProps } from '../common';
 import { TdTimePickerProps } from './type';

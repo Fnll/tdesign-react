@@ -5,7 +5,7 @@ import SinglePanel, { SinglePanelProps } from './SinglePanel';
 import useConfig from '../../_util/useConfig';
 import Button from '../../button';
 
-import { useTimePickerTextConfig } from '../const';
+import { useTimePickerTextConfig } from '../hooks/useTimePickerTextConfig';
 import { DEFAULT_STEPS, DEFAULT_FORMAT } from '../../_common/js/time-picker/const';
 
 export interface TimePickerPanelProps extends SinglePanelProps {

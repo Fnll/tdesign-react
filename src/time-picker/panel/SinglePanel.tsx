@@ -7,7 +7,7 @@ import range from 'lodash/range';
 
 import useConfig from '../../_util/useConfig';
 import noop from '../../_util/noop';
-import { useTimePickerTextConfig } from '../const';
+import { useTimePickerTextConfig } from '../hooks/useTimePickerTextConfig';
 import {
   AM,
   PM,
